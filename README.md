@@ -1,1 +1,1 @@
-#Web-Applcation for Budget Tracker using Python and Django 
+Web-Applcation for Budget Tracker using Python and Django 
