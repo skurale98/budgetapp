@@ -6,8 +6,8 @@
   <form action="" method="POST">
     {% csrf_token %}
     {{ form }}
-    <label for="categoryInput">Payment Methods:</label>
-    <input type="text" name="categoryInput" id="categoryInput" placeholder ="Click enter after each method of payment" >
+    <label for="categoryInput">Categories:</label>
+    <input type="text" name="categoryInput" id="categoryInput" placeholder ="Click enter after each category" >
     <input type="hidden" name="categoriesString">
 
     <ul id="categoriesContainer">
